@@ -19,6 +19,16 @@
   },
   "homepage": "https://github.com/RonaldQueirox/curso-node-js#readme",
   "dependencies": {
-    "express": "^5.1.0"
+    "eslint-config-prettier": "^10.1.2",
+    "express": "^5.1.0",
+    "pg": "^8.15.1",
+    "sequelize": "^6.37.7",
+    "sucrase": "^3.35.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.25.1",
+    "eslint-plugin-prettier": "^5.2.6",
+    "globals": "^16.0.0",
+    "prettier": "^3.5.3"
   }
 }

@@ -21,7 +21,7 @@ app.get("/customers:id", (req, res) => {
     const customer = customers.find(item => item.id == id)
     const status = customer ? 200 : 404
 
-    console.log("GET :: /customers/:id")
+    console.debug("GET :: /customers/:id", JSON.stringify(customer))
 
     return res.status(status).json(customer)
 })
